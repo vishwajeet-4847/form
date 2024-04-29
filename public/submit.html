@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       /* GLOBAL STYLES */
+body {
+  background: #333;
+  padding-top: 5em;
+  text-align: center;
+  
+}
+
+div.img{
+    width:80%;
+    max-width: 500px;
+    margin: 2rem auto ;
+}
+
+.wrapper {
+  height: 30vh;
+  color: white !important;
+  /*This part is important for centering*/
+  display: grid;
+  place-items: center;
+}
+
+.typing-demo {
+  width: 40ch;
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 1.5em;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="typing-demo">
+            Thank you for submitting the form
+        </div>
+    </div>
+      <div class="img">
+        <img src="https://media.tenor.com/p7RN1ieWP48AAAAi/thumbs-up-cat.gif" alt="thanks for submiting the form" srcset="">
+      </div>
+      
+</body>
+</html>
